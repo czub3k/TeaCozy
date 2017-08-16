@@ -82,6 +82,7 @@ nav a{
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .tea {
@@ -110,14 +111,15 @@ nav a{
   margin: 0px 15px;
   height: 200px;
   width: 300px;
-  border: 1px white solid;
   background-size: 300px 200px;
-
+}
+.bg-image:nth-child(5)  {
+  margin-right: 0px;
 }
 
 .frame h4 {
-height: auto;
-margin: 10px;
+  height: auto;
+  margin: 10px;
 }
 
 #fall {
@@ -139,4 +141,77 @@ margin: 10px;
 
 #bedford{
   background-image: url('../img/img-bedford-bizarre.jpg');
+}
+
+.third-section {
+  height: 500px;
+  width: 1200px;
+  background-image: url('../img/img-locations-background.jpg');
+  padding-top: 20px;
+}
+
+.ts-global {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ts-items {
+  margin-right: 40px;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+
+}
+.ts-items:nth-child(3) {
+  margin-right: 0px;
+}
+
+.ts-title h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.ts-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.ts-text span {
+  margin: 20px 0px;
+  opacity: 1;
+}
+
+.fourth-section {
+  height: 200px;
+  width: 1200px;
+  /*border: 1px white solid;*/
+}
+
+.fs-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fs-text h5 {
+  margin: 15px;
+}
+
+.fs-text h2 {
+  margin: 0px;
+  padding: 10px;
+}
+
+footer {
+  width: 100%;
+  margin: 30px 0px;
+  text-align: left;
+}
+
+footer h5{
+  margin-left: 20px;
+  font-size: 20px;
 }
