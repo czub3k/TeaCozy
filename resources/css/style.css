@@ -18,6 +18,8 @@ header {
   position: fixed;
   margin: 0px auto;
   top: 0px;
+  z-index: 1;
+  background-color: black;
 }
 
 .logo {
@@ -42,7 +44,9 @@ nav a{
 .container {
   margin: 70px 50px 0 50px;
   display:flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .first-section {
   height: 700px;
@@ -50,16 +54,89 @@ nav a{
   background-image: url('../img/img-mission-background.jpg');
 
 }
-.our-mission {
-  height: 120px;
+
+.text-container{
   background-color: black;
-  margin-top: 290px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 120px;
 }
-.txt-mission {
+
+
+.mission {
+  margin-top: 290px;
+}
+
+.txt {
   text-align: center;
+}
+
+.second-section {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tea {
+  width: 1000px;
+  margin: 70px 0px 15px 0px;
+  /*width: 100%;*/
+}
+
+.ss-items-global {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.ss-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+
+}
+.bg-image {
+  margin: 0px 15px;
+  height: 200px;
+  width: 300px;
+  border: 1px white solid;
+  background-size: 300px 200px;
+
+}
+
+.frame h4 {
+height: auto;
+margin: 10px;
+}
+
+#fall {
+  background-image: url('../img/img-mission-background.jpg');
+
+}
+
+#spiced {
+  background-image: url('../img/img-spiced-rum.jpg');
+}
+
+#donut {
+  background-image: url('../img/img-donut.jpg');
+}
+
+#myrtle{
+  background-image: url('../img/img-myrtle-ave.jpg');
+}
+
+#bedford{
+  background-image: url('../img/img-bedford-bizarre.jpg');
 }
